@@ -1,56 +1,27 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
-
-body {
-  font-family: "Raleway", sans-serif;
+body{
   background-color: hsl(218, 28%, 13%);
-  font-size: 14px;
-  color: hsl(0, 0%, 100%);
-  font-weight: 400, 700;
-}
-/*person1*/
-
-/*Ebube*/
-.features {
-  background-color: hsl(218, 28%, 13%);
-  font-size: 14px;
-  color: hsl(0, 0%, 100%);
-  @font-face {
-    font-family: Open Sans;
-    src: url(https://fonts.google.com/specimen/Open+Sans);
-  }
-  font-weight: 400, 700;
 }
 
-
-main {
-  display: flex;
-  padding: 6em;
-  margin-top: 4em;
-  flex-direction: column;
+h2{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14;
 }
 
-#box2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-bottom: 30px;
-  flex-wrap: wrap;
+p{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11;
 }
 
-#box3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-bottom: 50px;
-  flex-wrap: wrap;
+.ini2{
+  color: cadetblue;
+  text-decoration-color: cadetblue;
+  text-decoration: none;
 }
 
-/*Gracia*/
-
-/*Khadijat*/
-
-/*Person2*/
-
-
-
-/*Seyi*/
+.ini{
+border-bottom: 1px solid cadetblue;
+width: 140px;
+padding-bottom: 3px;
+}
