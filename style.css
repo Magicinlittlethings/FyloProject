@@ -8,7 +8,33 @@ body{
 
 
 /*Ebube*/
+.features {
+  background-color: hsl(218, 28%, 13%);
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+  @font-face {
+    font-family: Open Sans;
+    src: url(https://fonts.google.com/specimen/Open+Sans);
+  }
+  font-weight: 400, 700;
+}
 
+
+#box3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+#box4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 120px;
+  flex-wrap: wrap;
+}
 
 
 /*Gracia*/
