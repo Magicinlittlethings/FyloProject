@@ -47,6 +47,33 @@ main {
 }
 
 /*Gracia*/
+body{
+  background-color: hsl(218, 28%, 13%);
+}
+
+.ini4{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14;
+}
+
+.ini3{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11;
+}
+
+.ini2{
+  color: cadetblue;
+  text-decoration-color: cadetblue;
+  text-decoration: none;
+}
+
+.ini{
+border-bottom: 1px solid cadetblue;
+width: 140px;
+padding-bottom: 3px;
+}
 
 /*Khadijat*/
 .testimonials{
@@ -130,31 +157,5 @@ main {
   }
 }
 =======
-body{
-  background-color: hsl(218, 28%, 13%);
-}
 
-h2{
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  font-size: 14;
-}
-
-p{
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 11;
-}
-
-.ini2{
-  color: cadetblue;
-  text-decoration-color: cadetblue;
-  text-decoration: none;
-}
-
-.ini{
-border-bottom: 1px solid cadetblue;
-width: 140px;
-padding-bottom: 3px;
-}
 >>>>>>> 1dce62fcc0d464292acd1cbd3eccfdb2f6b69195
