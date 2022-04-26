@@ -48,9 +48,83 @@ main {
 /*Gracia*/
 
 /*Khadijat*/
+.testimonials{
+  position:relative;
+  display:flex;
+  font-family: "Open Sans", sans-serif;
+  padding:4rem 0;
+  
+  
+}
+.quotes{
+  position:absolute;
+  z-index:-1;
+  
+  top:1.3rem;
+  left:-0.5rem
+
+}
+.test{
+  background-color:hsl(219, 30%, 18%);
+  padding: 3rem;
+  
+  padding-bottom:2rem;
+  
+}
+.info{
+  margin-top:2rem;
+  display:flex;
+}
+.infoo{
+  margin-top:0.3rem;
+}
+.profile{
+  border-radius:50%;
+  height:60px;
+  width:60px;
+  margin-right:1rem;
+}
+.mar{
+  margin-right:2rem;
+}
 
 /*Person2*/
 
 
 
 /*Seyi*/
+
+
+@media only screen and (max-width: 375px) {
+  
+  .testimonials{
+    
+    display:block;
+    
+    
+    
+  }
+  .quotes{
+    position:absolute;
+    z-index:-1;
+    height:4rem;
+    width:4rem;
+    top:1.3rem;
+    left:-0.5rem
+  
+  }
+  .test{
+    
+    padding: 2rem;
+    
+    margin-bottom:2rem;
+    
+  }
+  .mar{
+    margin-right:0;
+  }
+ 
+  main{
+    padding:2em;
+  }
+}
