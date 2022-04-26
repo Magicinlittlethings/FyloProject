@@ -121,7 +121,33 @@ padding-bottom: 3px;
 
 
 /*Seyi*/
-
+.footer{
+    background-color: hsl(219, 30%, 18%);
+    padding: 3rem;
+}
+.moreInfo{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.mail{
+    display: flex;
+}
+.links{
+    display: block;
+    color:white;
+    text-decoration: none;
+}
+.icon{
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+    width: 15px; height: 15px;
+}
+.socialicon{
+    width: 25px; height: 25px;
+    margin-right: 0.5rem;
+}
 
 @media only screen and (max-width: 375px) {
   
