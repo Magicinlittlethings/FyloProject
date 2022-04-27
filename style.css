@@ -282,7 +282,9 @@ form{
 
 
 @media only screen and (max-width: 375px) {
-  
+  body{
+width:full;
+}
   .testimonials{
     
     display:block;
@@ -401,6 +403,11 @@ form{
   padding-top: 6rem;
  
 
+
+}
+.landing-page img{
+display:block;
+width: 60vw;
 
 }
 
