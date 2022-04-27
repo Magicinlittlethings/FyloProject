@@ -380,5 +380,41 @@ z-index:20;
 .mar{
   margin-right:0rem;
 }
+/*Person2*/
+
+.signup{
+  
+  
+  padding: 2rem;
+  width:30vw;
+  display:block;
+  left:20%;
+  
+}
+.fill input{
+  margin-right: 0px;
+   width: 100%;
+   
+}
+.btn{
+ margin-right: 0px;
+   width: 100%;
+  
+   
+}
+form{
+  display:block
+}
+/*Seyi*/
+.footer{
+   
+    padding: 4rem 3rem;
+   
+}
+.moreInfo{
+   
+    display: block;
+   
+}
 
 }
