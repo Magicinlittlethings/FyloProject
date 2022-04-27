@@ -313,5 +313,103 @@ form{
   main{
     padding:2em;
   }
+.footer{
+  
+    padding: 4rem 4rem;
+   
+}
+.moreInfo{
+   
+    display: block;
+   
 }
 
+.signup{
+  
+  width:30vw;
+  left:20%;
+  
+}
+
+.fill input{
+  margin-right: 0;
+   width: 100%;
+
+}
+.btn{
+ margin-right: 0;
+   width: 100%;
+   
+   
+}
+form{
+  display:block
+}
+}
+/*Gracia*/
+.stay-productive{
+  
+  display:block;
+ 
+ 
+  padding: 4rem 4rem;
+}
+
+.content{
+  margin-top:0;
+}
+/*Ebube*/
+.features {
+ 
+  padding: 4rem 4rem;
+ 
+  
+}
+
+.box{
+  display:block
+}
+/*Person1*/
+
+.navbar{
+ 
+  padding: 0.7rem 2rem 0.3rem 2rem;
+  display:flex;
+ 
+  
+ 
+  
+  
+}
+.nav{
+  position:fixed;
+  display:block;
+  width:100%;
+}
+
+.items {
+  display:none;
+ 
+  
+}
+.items a {
+  
+.landing-page{
+  
+
+  
+  padding-top: 6rem;
+ 
+
+
+}
+
+.landing-page .backimage
+{
+  background-image: none;
+
+}
+.landing-page .backimage .content
+{
+padding: 0 0;
+}
