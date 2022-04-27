@@ -363,13 +363,13 @@ padding: 0 0rem;
 .quotes{
   
   left:4rem;
-  z-index:-1;
+  z-index:1;
 
 }
 .test{
   margin-bottom:2rem;
   padding: 1rem;
-z-index: 3;
+z-index: 5;
 }
 
 
