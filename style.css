@@ -386,7 +386,7 @@ z-index:20;
   
   
   padding: 2rem;
-  width:30vw;
+  width:70vw;
   display:block;
   left:20%;
   
@@ -415,6 +415,9 @@ form{
    
     display: block;
    
+}
+.last{
+margin-bottom:2rem;
 }
 
 }
