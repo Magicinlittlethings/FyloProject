@@ -388,8 +388,9 @@ z-index:20;
   
   
   padding: 1rem;
-  width:60vw;
+  width:65vw;
   display:block;
+justify-self:center;
   left:;
   
 }
