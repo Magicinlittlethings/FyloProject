@@ -41,18 +41,46 @@ body {
   color:white;
   text-decoration: none;
 }
+
 .landing-page{
-  background-image: url('images/bg-curvy-desktop.svg');
- 
+  
   background-color: hsl(217,28%,15%);
-  padding: 4rem 6rem;
+  
+  padding-top: 8rem;
+  color:white;
 
 
 }
-.landing-page .content
+.landing-page img{
+display:block;
+margin:auto;
 
+}
+.landing-page .backimage
 {
-background-repeat: no-repeat;background-position: contain;
+  background-image: url('images/bg-curvy-desktop.svg');
+ 
+background-repeat: no-repeat;
+background-position: cover;
+padding:8rem 0;
+
+}
+.landing-page .backimage .content
+{
+
+text-align: center;
+padding: 0 25rem;
+}
+.button{
+ width:30%;
+   padding: 10px;
+   border-radius: 16px;
+   border: none;
+   background-color: cyan;
+   color: white;
+   margin: auto;
+   margin-top: 1rem;
+   
 }
 
 /*Ebube*/
@@ -68,7 +96,7 @@ background-repeat: no-repeat;background-position: contain;
 .box{
   display:inline-grid;
   grid-template-columns: auto auto;
-  column-gap: 25vw;
+  column-gap: 28vw;
 }
 .features h2, .features p{
   text-align: center;
