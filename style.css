@@ -282,7 +282,7 @@ form{
   .landing-page img{
     display:block;
     width:85vw;
-
+justify-self: center;
 margin:auto;
     
     }
@@ -353,7 +353,7 @@ padding: 0 0rem;
 .stay-productive .main{
 display:block;
 margin:auto;
- 
+ justify-self: center;
   width:85vw
 }
 .testimonials{
