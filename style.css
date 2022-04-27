@@ -355,14 +355,15 @@ padding: 0 0rem;
 .testimonials{
   
   display:block;
-  
+  padding: 6rem 3rem;
+}
  
   
 }
 .quotes{
   
   left:4rem;
-  z-index:1;
+  z-index:-1;
 
 }
 .test{
