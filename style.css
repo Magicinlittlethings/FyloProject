@@ -388,9 +388,9 @@ z-index:20;
   
   
   padding: 1rem;
-  width:65vw;
+  width:80vw;
   display:block;
-justify-self:center;
+
   left:;
   
 }
@@ -410,7 +410,7 @@ form{
 }
 /*Seyi*/
 .footer{
-   padding-top: 18rem;
+   padding-top:20rem;
   
     padding: 4rem 3rem;
    
