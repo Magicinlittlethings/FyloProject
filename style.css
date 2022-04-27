@@ -5,7 +5,7 @@ body {
   font-family: "Raleway", sans-serif;
   
   font-size: 14px;
-  
+  width:100vw;
   font-weight: 400, 700;
   margin:0;
   
@@ -56,15 +56,7 @@ display:block;
 margin:auto;
 
 }
-.landing-page .backimage
-{
-  background-image: url('images/bg-curvy-desktop.svg');
- 
-background-repeat: no-repeat;
-background-position: cover;
-padding:8rem 0;
 
-}
 .landing-page .backimage .content
 {
 
@@ -96,7 +88,7 @@ padding: 0 25rem;
 .box{
   display:inline-grid;
   grid-template-columns: auto auto;
-  column-gap: 28vw;
+  column-gap: 30vw;
 }
 .features h2, .features p{
   text-align: center;
@@ -281,142 +273,83 @@ form{
 }
 
 
-@media only screen and (max-width: 375px) {
-  body{
-width:full;
-}
-  .testimonials{
+@media (max-width:375px){
+  /*navbar*/
+  .nav {
+    width:100vw;
     
+  }
+  .landing-page img{
     display:block;
+    width:50vw;
     
-    
-    
-  }
-  .quotes{
-    position:absolute;
-    z-index:-1;
-    height:4rem;
-    width:4rem;
-    top:1.3rem;
-    left:-0.5rem
+    }
+    .items {
+      margin-left: 10px;
+      font-size: 0.6rem;
+      margin-top: 1.4rem;
+      justify-content: none;
+      
+    }
+    .navbar{
+     
+      padding: 0.5 1rem 0.3rem 1rem;
+      
+      
+     
+      
+      
+    }
+    .landing-page .backimage .content
+{
+
+
+padding: 0 0rem;
+}
+.landing-page{
   
-  }
-  .test{
+  background-color: hsl(217,28%,15%);
+  
+  padding: 6rem 3rem 3rem 4rem;
+  
+
+
+}
+.button{
+  width:50%;
+    padding: 7px;
+    border-radius: 16px;
     
-    padding: 2rem;
     
-    margin-bottom:2rem;
     
-  }
-  .mar{
-    margin-right:0;
-  }
+    
+ }
+/*Ebube*/
+.box{
+  display:block;
+  
+}
+.features {
+  
+  padding: 4rem 3rem;
  
-  main{
-    padding:2em;
-  }
-.footer{
-  
-    padding: 4rem 4rem;
-   
-}
-.moreInfo{
-   
-    display: block;
-   
-}
-
-.signup{
-  
-  width:30vw;
-  left:20%;
   
 }
-
-.fill input{
-  margin-right: 0;
-   width: 100%;
-
-}
-.btn{
- margin-right: 0;
-   width: 100%;
-   
-   
-}
-form{
-  display:block
-}
+.box1{
+  
+  padding-bottom: 2rem;
+ 
+  
 }
 /*Gracia*/
 .stay-productive{
-  
+ 
   display:block;
- 
- 
-  padding: 4rem 4rem;
-}
-
-.content{
-  margin-top:0;
-}
-/*Ebube*/
-.features {
- 
-  padding: 4rem 4rem;
- 
   
+  padding: 6rem 3rem;
 }
-
-.box{
-  display:block
-}
-/*Person1*/
-
-.navbar{
+.stay-productive .main{
  
-  padding: 0.7rem 2rem 0.3rem 2rem;
-  display:flex;
- 
-  
- 
-  
-  
+  width:70vw
 }
-.nav{
-  position:fixed;
-  display:block;
-  width:100%;
-}
-
-.items {
-  display:none;
- 
-  
-}
-.items a {
-  
-.landing-page{
-  
-
-  
-  padding-top: 6rem;
- 
-
-
-}
-.landing-page img{
-display:block;
-width: 60vw;
-
-}
-
-.landing-page .backimage
-{
-  background-image: none;
-
-}
-.landing-page .backimage .content
-{
-padding: 0 0;
 }
