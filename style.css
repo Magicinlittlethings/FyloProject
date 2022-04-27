@@ -198,7 +198,7 @@ padding-bottom: 6px;
   background-color: rgb(29, 29, 48);
   
   padding: 2rem;
-  width:75vw;
+  width:50vw;
   display:block;
   left:20%;
   border-radius: 5px;
@@ -281,7 +281,7 @@ form{
   }
   .landing-page img{
     display:block;
-    width:50vw;
+    width:75vw;
     
     }
     .items {
