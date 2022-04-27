@@ -1,101 +1,157 @@
-<<<<<<< HEAD
+
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
 
 body {
   font-family: "Raleway", sans-serif;
-  background-color: hsl(218, 28%, 13%);
+  
+  font-size: 14px;
+  
+  font-weight: 400, 700;
+  margin:0;
+  
+}
+
+/*person1*/
+.navbar{
+  background-color: hsl(217,28%,15%);
   font-size: 14px;
   color: hsl(0, 0%, 100%);
-  font-weight: 400, 700;
+  padding: 1rem 3rem 0.5rem 3rem;
+  display:flex;
+  justify-content: space-between;
+  
+ 
+  
+  
 }
-/*person1*/
+.nav{
+  position:fixed;
+  display:block;
+  width:100%;
+}
+
+.items {
+  display:flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  
+}
+.items a {
+  
+  color:white;
+  text-decoration: none;
+}
+.landing-page{
+  background-image: url('images/bg-curvy-desktop.svg');
+ 
+  background-color: hsl(217,28%,15%);
+  padding: 4rem 6rem;
+
+
+}
+.landing-page .content
+
+{
+background-repeat: no-repeat;background-position: contain;
+}
 
 /*Ebube*/
 .features {
   background-color: hsl(218, 28%, 13%);
   font-size: 14px;
   color: hsl(0, 0%, 100%);
-  @font-face {
-    font-family: Open Sans;
-    src: url(https://fonts.google.com/specimen/Open+Sans);
-  }
+  padding: 4rem 6rem;
   font-weight: 400, 700;
+  
+}
+
+.box{
+  display:inline-grid;
+  grid-template-columns: auto auto;
+  column-gap: 25vw;
+}
+.features h2, .features p{
+  text-align: center;
+}
+.features img{
+  display:block;
+  margin:0 auto;
+  
 }
 
 
-main {
-  display: flex;
-  padding: 6em;
-  margin-top: 4em;
-  flex-direction: column;
-}
 
-#box2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-bottom: 30px;
-  flex-wrap: wrap;
-}
 
-#box3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-bottom: 50px;
-  flex-wrap: wrap;
-}
+
+
 
 /*Gracia*/
-body{
+.stay-productive{
   background-color: hsl(218, 28%, 13%);
+  font-size: 14px;
+  display:inline-grid;
+  column-gap: 8vw;
+  grid-template-columns:  auto auto;
+  justify-content: space-between;
+  padding: 6rem 8rem;
 }
-
+.stay-productive .main{
+ width:35vw;
+ 
+}
+.content{
+  margin-top: 3.5rem;
+}
 .ini4{
   color: white;
   font-family: 'Raleway', sans-serif;
-  font-size: 14;
+  
 }
 
 .ini3{
   color: white;
   font-family: 'Open Sans', sans-serif;
-  font-size: 11;
+  
 }
 
 .ini2{
   color: cadetblue;
   text-decoration-color: cadetblue;
   text-decoration: none;
+  padding-right: 5px;
+ 
 }
 
 .ini{
-border-bottom: 1px solid cadetblue;
-width: 140px;
-padding-bottom: 3px;
+border-bottom: 2px solid cadetblue;
+width: 160px;
+padding-bottom: 6px;
 }
 
 /*Khadijat*/
 .testimonials{
   position:relative;
-  display:flex;
+  display:inline-grid;
+  grid-template-columns: auto auto auto;
   font-family: "Open Sans", sans-serif;
-  padding:4rem 0;
-  
+  padding: 4rem 6rem;
+  color:hsl(0, 0%, 100%);
+  background-color: hsl(218, 28%, 13%);
+  padding-bottom: 14rem;
   
 }
 .quotes{
   position:absolute;
-  z-index:-1;
+  z-index:2;
   
-  top:1.3rem;
-  left:-0.5rem
+  top:1.9rem;
+  left:7rem;
 
 }
 .test{
   background-color:hsl(219, 30%, 18%);
   padding: 3rem;
-  
+  z-index: 3;
   padding-bottom:2rem;
   
 }
@@ -118,12 +174,62 @@ padding-bottom: 3px;
 
 /*Person2*/
 
+.signup{
+  background-color: rgb(29, 29, 48);
+  
+  padding: 2rem;
+  width:50vw;
+  display:block;
+  left:20%;
+  border-radius: 5px;
+  position:absolute;
+  top:-10rem;
+}
+#head{
+   
+  font-size: 16px;
+  text-align: center;
+  color: white;
+   
+}
+#para{
+  
+  text-align: center;
+  line-height: 1.5;
+  font-size: 13px;
+  color: white;
+}
+.fill input{
+  margin-right: 4px;
+   width: 180%;
+   height: 35px;
+   padding: 7px;
+   border: none;
+    border-radius: 16px;
+}
+.btn{
+  margin-left: 4px;
+   width: 100%;
+   height: 35px;
+   padding: 7px;
+   border-radius: 16px;
+   border: none;
+   background-color: cyan;
+   color: white;
+   
+}
+form{
+  display:flex;
+}
+
 
 
 /*Seyi*/
 .footer{
     background-color: hsl(219, 30%, 18%);
-    padding: 3rem;
+    padding: 4rem 6rem;
+    position:relative;
+    padding-top: 12rem;
 }
 .moreInfo{
     color: white;
@@ -138,16 +244,14 @@ padding-bottom: 3px;
     display: block;
     color:white;
     text-decoration: none;
+    margin-bottom: 1rem;
 }
 .icon{
     margin-right: 0.5rem;
     margin-top: 1rem;
     width: 15px; height: 15px;
 }
-.socialicon{
-    width: 25px; height: 25px;
-    margin-right: 0.5rem;
-}
+
 
 @media only screen and (max-width: 375px) {
   
@@ -182,6 +286,4 @@ padding-bottom: 3px;
     padding:2em;
   }
 }
-=======
 
->>>>>>> 1dce62fcc0d464292acd1cbd3eccfdb2f6b69195
